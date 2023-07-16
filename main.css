@@ -84,6 +84,7 @@ button {
 .hero .wrapper .ut-slogan {
   /* padding: 위 오른쪽 아래 왼쪽; */
   padding: 64px 0 0 64px;
+  margin: 0;
 }
 
 .hero .wrapper .ut-slogan .ut-title {
