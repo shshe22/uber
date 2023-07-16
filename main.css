@@ -1,14 +1,107 @@
 body {
-  font-family: 'Pretendard Variable', sans-serif;
+  font-family: "Pretendard Variable", sans-serif;
+  color: white;
+  ]
 }
+
+button {
+  font-family: "Pretendard Variable", sans-serif;
+}
+
+/* header */
 
 .header {
-  width: 100%;
-  height: 88px;
-  background-color: #000;
+  background-color: black;
 }
 
-.wrapper {
+.header .wrapper {
   margin: 0 auto;
-  width: 1280px;
+  width: 1400px;
+}
+
+.header .wrapper .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 64px;
+  /* padding: 12px 64px 12px; 위 좌우 아래
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 64px;
+  padding-right: 64px; */
+}
+
+.header .wrapper .nav .nav-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.header .wrapper .nav .nav-list .nav-item .nav-item-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header .wrapper .nav .sub-nav-list {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.header .wrapper .nav .sub-nav-list .sub-nav-item {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.header .wrapper .nav .sub-nav-list .sub-nav-item .signup-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 14px;
+  /*padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;*/
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+/* hero */
+
+.hero {
+  color: black;
+}
+
+.hero .wrapper {
+  margin: 0 auto;
+  width: 1400px;
+  background-image: url(./images/Banner.png);
+  height: 400px;
+  background-repeat: no-repeat;
+}
+
+.hero .wrapper .ut-slogan {
+  /* padding: 위 오른쪽 아래 왼쪽; */
+  padding: 64px 0 0 64px;
+}
+
+.hero .wrapper .ut-slogan .ut-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.hero .wrapper .ut-slogan .ut-desc {
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+.hero .wrapper .ut-slogan .ut-app-download-btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 16px 24px;
+  margin-top: 28px;
 }
